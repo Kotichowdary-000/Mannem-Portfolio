@@ -19,14 +19,14 @@ body {
 }
 
 /* ==== Color System ==== */
-/* 
+
     Primary: #2563eb (blue)
     Background: #020617 / #0f172a
     Card: #020817 / #020617
     Border: rgba(148, 163, 184, 0.3)
     Text main: #e5e7eb
     Text muted: #9ca3af
-*/
+
 
 /* ==== Layout Helpers ==== */
 .section {

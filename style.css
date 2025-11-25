@@ -13,20 +13,10 @@ html {
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: #020617; /* near-black navy */
+    background: #020617;
     color: #e5e7eb;
     line-height: 1.6;
 }
-
-/* ==== Color System ==== */
-
-    Primary: #2563eb (blue)
-    Background: #020617 / #0f172a
-    Card: #020817 / #020617
-    Border: rgba(148, 163, 184, 0.3)
-    Text main: #e5e7eb
-    Text muted: #9ca3af
-
 
 /* ==== Layout Helpers ==== */
 .section {
@@ -473,4 +463,20 @@ textarea:focus {
         flex-direction: column;
         align-items: flex-start;
     }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2563eb;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
 }

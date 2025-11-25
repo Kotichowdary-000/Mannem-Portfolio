@@ -15,18 +15,6 @@ if (navToggle && navLinks) {
     });
 }
 
-// Smooth scroll (extra safety for older browsers)
-// document.querySelectorAll('a[href^="#"]').forEach((link) => {
-//     link.addEventListener("click", function (e) {
-//         const targetId = this.getAttribute("href").slice(1);
-//         const targetElement = document.getElementById(targetId);
-
-//         if (targetElement) {
-//             e.preventDefault();
-//             targetElement.scrollIntoView({ behavior: "smooth" });
-//         }
-//     });
-// });
 
 // Dynamic year in footer
 const yearSpan = document.getElementById("year");
